@@ -1,4 +1,4 @@
-# php artisan
+# PHP artisan commands
 
 First, there is a command **php artisan list** which gives us all the commands, like this:
 
@@ -26,7 +26,7 @@ First, there is a command **php artisan list** which gives us all the commands, 
   make:test            Create a new test class
 ```
 
-# 1. make:controller
+## 1. make:controller
 This command creates a new controller file in app/Http/Controllers folder.
 
 ### Example usage:
@@ -66,7 +66,7 @@ If you are using route model binding and would like the resource controller’s 
 
 Officially undocumented parameter, in the code it says “Generate a nested resource controller class” but for me it failed to generate a Controller properly. So probably work in progress.
 
-# 2. make:model
+## 2. make:model
 Create a new Eloquent model class.
 
 ### Example usage:
@@ -145,7 +145,7 @@ Create the class even if the model already exists.
 ```
 Indicates if the generated model should be a custom intermediate table model.
 
-# 3. make:migration
+## 3. make:migration
 Create a new migration file.
 
 ### Example usage:
@@ -174,7 +174,7 @@ Indicate any provided migration file paths are pre-resolved absolute path.
 ```
 Output the full path of the migration.
 
-# 4. make:seeder
+## 4. make:seeder
 Create a new database seeder class.
 
 ### Example usage:
@@ -194,7 +194,7 @@ php artisan make:request StoreBlogPost
 ```
 ### Parameters: none.
 
-# 6. make:middleware
+## 6. make:middleware
 Create a new middleware class.
 
 ### Example usage:
@@ -203,7 +203,7 @@ php artisan make:middleware CheckAge
 ```
 ### Parameters: none.
 
-# 7. make:policy
+## 7. make:policy
 Create a new policy class.
 
 ### Example usage:
@@ -216,7 +216,7 @@ php artisan make:policy PostPolicy
 ```
 The model that the policy applies to.
 
-# 8. make:command
+## 8. make:command
 Create a new Artisan command.
 
 ### Example usage:
@@ -229,7 +229,7 @@ php artisan make:command SendEmails
 ```
 The terminal command that should be assigned.
 
-# 9. make:event
+## 9. make:event
 Create a new event class.
 
 ### Example usage:
@@ -238,7 +238,7 @@ php artisan make:event OrderShipped
 ```
 ### Parameters: none.
 
-# 10. make:job
+## 10. make:job
 Create a new job class.
 
 ### Example usage:
@@ -251,7 +251,7 @@ php artisan make:job SendReminderEmail
 ```
 Indicates that job should be synchronous.
 
-# 11. make:listener
+## 11. make:listener
 Create a new event listener class.
 
 ### Example usage:
@@ -268,7 +268,7 @@ The event class being listened for.
 ```
 Indicates the event listener should be queued.
 
-# 12. make:mail
+## 12. make:mail
 Create a new email class.
 
 ### Example usage:
@@ -285,7 +285,7 @@ Create a new Markdown template for the mailable.
 ```
 Create the class even if the mailable already exists.
 
-# 13. make:notification
+## 13. make:notification
 Create a new notification class.
 
 ### Example usage:
@@ -302,7 +302,7 @@ Create a new Markdown template for the notification.
 ```
 Create the class even if the notification already exists.
 
-# 14. make:provider
+## 14. make:provider
 Create a new service provider class.
 
 ### Example usage:
@@ -311,7 +311,7 @@ php artisan make:provider DuskServiceProvider
 ```
 ### Parameters: none.
 
-# 15. make:test
+## 15. make:test
 Create a new test class.
 
 ### Example usage:
@@ -324,7 +324,7 @@ php artisan make:test UserTest
 ```
 Create a unit (or, otherwise, feature) test.
 
-# 16. make:channel
+## 16. make:channel
 Create a new channel class for broadcasting.
 
 ### Example usage:
@@ -333,7 +333,7 @@ php artisan make:channel OrderChannel
 ```
 ### Parameters: none.
 
-# 17. make:exception
+## 17. make:exception
 Create a new custom exception class.
 
 ### Example usage:
@@ -350,7 +350,7 @@ Create the exception with an empty render method.
 ```
 Create the exception with an empty report method.
 
-# 18. make:factory
+## 18. make:factory
 Create a new model factory.
 
 ### Example usage:
@@ -363,7 +363,7 @@ php artisan make:factory PostFactory --model=Post
 ```
 The name of the model.
 
-# 19. make:observer
+## 19. make:observer
 Create a new observer class.
 
 ### Example usage:
@@ -376,7 +376,7 @@ php artisan make:observer PostObserver --model=Post
 ```
 The model that the observer applies to.
 
-# 20. make:rule
+## 20. make:rule
 Create a new validation rule.
 
 ### Example usage:
@@ -385,7 +385,7 @@ php artisan make:rule Uppercase
 ```
 ### Parameters: none.
 
-# 21. make:resource
+## 21. make:resource
 Create a new API resource.
 
 ### Example usage:
